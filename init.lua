@@ -1,3 +1,7 @@
 require("base")
-require("map")
+require("keymap")
+
 require("plugins")
+
+require("setup")
+

@@ -14,3 +14,10 @@ vim.o.shiftwidth = 4
 vim.o.smartindent = true
 vim.o.expandtab = true
 
+-- disable netrw 
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
+-- enable highlight groups
+vim.opt.termguicolors = true
+
