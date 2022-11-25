@@ -34,4 +34,7 @@ return require('packer').startup(function(use)
         run = ':TSUpdate'
   }
 
+  -- nvim-lspconfig
+  use 'neovim/nvim-lspconfig'
+
 end)
