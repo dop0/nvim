@@ -39,4 +39,8 @@ return require('packer').startup(function(use)
 
   -- mason.nvim
   use { "williamboman/mason.nvim" }
+
+  -- gitsigns
+  use 'lewis6991/gitsigns.nvim'
+
 end)

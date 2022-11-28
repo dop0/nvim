@@ -17,3 +17,6 @@ require'nvim-treesitter.configs'.setup {
 
 --mason.nvim
 require("mason").setup()
+
+-- gitsigns
+require('gitsigns').setup()
