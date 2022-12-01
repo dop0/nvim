@@ -4,5 +4,5 @@ require("keymap")
 require("plugins")
 
 require("setup")
-require("lsp")
-
+require("lsp-setup")
+require("cmp-setup")
