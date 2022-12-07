@@ -53,4 +53,9 @@ return require('packer').startup(function(use)
   use 'hrsh7th/cmp-vsnip'    -- { name = 'vsnip' }
   use 'hrsh7th/vim-vsnip'
 
+  -- lualine
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
 end)

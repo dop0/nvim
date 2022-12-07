@@ -20,3 +20,6 @@ require("mason").setup()
 
 -- gitsigns
 require('gitsigns').setup()
+ 
+-- lualine
+require('lualine').setup()
