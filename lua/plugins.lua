@@ -28,7 +28,7 @@ return require('packer').startup(function(use)
   -- tokyonight colorscheme
   use 'folke/tokyonight.nvim'
 
-  -- nvim-treesitter
+  -- nvim-treesitter Neovim 0.8.0 or later built with tree-sitter 0.20.3+
   use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
